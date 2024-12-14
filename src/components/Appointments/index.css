@@ -1,0 +1,150 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.white-container {
+  height: 700px;
+  width: 1000px;
+  background-color: white;
+  border-radius: 20px;
+}
+.heading {
+  margin-left: 20px;
+}
+.form-container {
+  margin-top: 30px;
+  height: 300px;
+  width: 600px;
+  border: 0px solid;
+}
+.title-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.date-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.title-input {
+  height: 40px;
+  width: 400px;
+  border: 1px solid;
+  border-radius: 7px;
+  padding: 20px;
+}
+.label-title {
+  color: #b5b7c4;
+  margin-bottom: 10px;
+}
+.btn {
+  height: 40px;
+  width: 60px;
+  background-color: #8b5cf6;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.img-size {
+  height: 300px;
+  width: 300px;
+}
+.align-header-section {
+  border: 0px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15px;
+}
+.btn-new{
+  border-top:none;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  background-color: transparent;
+}
+.hr-line {
+  width: 940px;
+  color: #b5b7c4;
+  border-bottom-width: 3px;
+}
+.Appointments-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 0px solid;
+}
+.head {
+  font-size: 30px;
+  margin-left: 30px;
+}
+.btn-star {
+  height: 30px;
+  width: 60px;
+  border-radius: 20px;
+  align-self: center;
+}
+.unorder-container {
+  display: flex;
+}
+@media screen and (max-width: 576px) {
+  .white-container {
+    height: 700px;
+    width: 250px;
+  }
+  .form-container {
+    height: 300px;
+    width: 300px;
+  }
+  .title-input {
+    width: 150px;
+  }
+  .img-size {
+    display: none;
+  }
+  .hr-line {
+    width: 200px;
+  }
+  .head {
+    font-size: 20px;
+    margin-left: 8px;
+  }
+  .btn-star {
+    width: 60px;
+    margin-right: 10px;
+  }
+  .unorder-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .white-container {
+    height: 900px;
+    width: 700px;
+  }
+  .form-container {
+    height: 400px;
+    width: 400px;
+  }
+  .title-input {
+    width: 300px;
+  }
+  .unorder-container {
+    flex-wrap: wrap;
+  }
+  .bg-container {
+    justify-content: center;
+  }
+  .hr-line {
+    width: 650px;
+  }
+}

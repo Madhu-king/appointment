@@ -1,0 +1,44 @@
+/* Write your CSS here */
+
+.each-list {
+  list-style-type: none;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.each-item {
+  height: 100px;
+  width: 330px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+}
+.text-container {
+  padding: 10px;
+}
+.star-size {
+  height: 30px;
+  width: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .each-item {
+    height: 100px;
+    width: 200px;
+  }
+  .each-list {
+    margin-bottom: 10px;
+  }
+  .star-size {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .each-item {
+    width: 200px;
+  }
+}
